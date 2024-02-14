@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title>Choose wisely darling</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="music/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <style>
+		marquee{
+			font-size: 20px;
+			font-weight: 800;
+			color: #EE82EE;
+			font-family:Cursive;
+		}
+		.buttons{
+		margin: 10px;
+		}
+    </style>
+	</head>
+    <body>
+        <div class="container">
+				<div >
+						<br>
+					<marquee> Why are you trying to click the No button hmm? *knife emoji* </marquee>
+					<audio id="myAudio" >
+						<source src="music/You're Still The One - Shania Twain (Piano Cover by Riyandi Kusuma).mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+					<button onclick="document.getElementById('myAudio').play()">Play Audio</button>
+					
+					<h1 class = "header_text">Will you be my forever valentine Anu?</h1>
+				</div>
+					<br>
+				<div class="gif_container">
+					<img src="music/1st page.gif" alt="Cute animated illustration">
+				</div>
+
+				<div class = "buttons">
+					<button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+					<button class="btn2" id="maybeButton" onclick="alert('Maybe? Maybe what hmm? Maybe Ill come infront of ur house and scream your name.')">Maybe</button>
+					<button class="btn1" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+				
+					<script>
+				
+						function nextPage() {
+							window.location.href = "yes.html";
+						}
+                    
+						function moveButton() {
+							var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+							var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+							document.getElementById('noButton').style.left = `${x}px`;
+							document.getElementById('noButton').style.top = `${y}px`;
+							}
+					</script> 
+				</div>
+        </div>
+		
+    </body> 
+</html>

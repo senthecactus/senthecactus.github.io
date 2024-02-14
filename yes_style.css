@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWl2enhpZ3owY3B2ZXVqcjZuZnB3aG44aWJvb256NzBrcjNuYng0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VNgG3sCe7UymMwGzfL/giphy-downsized-large.gif");
+	background-repeat:no-repeat;	
+	background-size: cover;
+}
+
+.header_text {
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    font-weight: bold;
+    color:#7B68EE;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: #BA55D3;
+	padding: 14px 28px;
+	font-size: 16px;
+	font-family:"Consolas";
+	font-weight: bold;
+	color:#800080 ;
+	cursor: pointer;
+	text-align: center;
+}

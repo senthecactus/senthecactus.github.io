@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    height: 100vh;
+    background-image:url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemMyenBpZ210ZnR1djVkODBzNzIwY2hjcnNiMXBuN2xndXEzbGtxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3c614V12UA82q1vG/giphy-downsized-large.gif");
+	background-repeat:no-repeat;	
+	background-size: cover;
+}
+
